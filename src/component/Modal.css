@@ -1,0 +1,119 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200);
+  /* position: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 350px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  margin-top:-45px;
+  flex-direction: column;
+  padding: 20px;
+  z-index: 1;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: start;
+  margin-top: -20px;
+  font-size: x-small;
+  letter-spacing: 1px;
+  color: #0992D5;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-size: x-small;
+  /* text-align: center; */
+}
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#newCollection {
+  margin-top: 40px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  padding: 5px;
+  font-size:12px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #0992D5 0%, #394C6F 100%);
+  box-shadow: 1px 2px 5px #888888; 
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+#chooseFilebtn{
+  margin-top: 60px;
+  margin-left: -150px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  padding: 5px;
+  font-size:12px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #0992D5 0%, #394C6F 100%);
+  box-shadow: 1px 2px 5px #888888; 
+  letter-spacing: 1.5px;
+  border: none;
+  z-index: 1;
+}
+#headings{
+  /* margin-top: -120px; */
+  width: 250px;
+  padding: 20px;
+  font-size: small;
+  font-weight: 600;
+  color: #888888;
+}
+#formInputs{
+  margin-top: 120px;
+  justify-content: start;
+  margin-left: -200px;
+  font-size: small;
+}
